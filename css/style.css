@@ -4,3 +4,67 @@
     box-sizing: border-box;
 }
 
+main{
+    text-align: center;
+    max-width: 1000px;
+}
+
+/*header-main  */
+#intestazione{
+    color: palevioletred;
+}
+
+#paragrafo{
+    margin-top: 50px;
+}
+/* fine header-main  */
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    background-color: black;
+
+}
+
+.float{
+    height: 150px;
+    width: calc((100% / 3) - 4px);
+    float: left;
+    margin-right: 6px;
+
+}
+
+.left{
+    background-color: brown;
+    float: left;
+}
+
+.center{
+    background-color: blue;
+}
+
+.right{
+    background-color: red;
+    margin-right: 0;
+}
+
+#img1{
+    height: 150px;
+    width: calc(100% / 2);
+    float: left;
+    background-color: darkorchid;
+    background-size: contain;
+
+}
+
+#testo-img1{
+    float: left;
+    height: 150px;
+    width: calc(100% / 2);    
+    background-color: antiquewhite;
+}
